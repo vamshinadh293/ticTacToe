@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 700;
+    font-style:normal;
+}
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80px;
+    width:400px;
+    color: rgb(226,190,0);
+    background-color: #2B0040;
+    margin: 5px 5px 5px 50px;
+    padding:5px;
+    font-size: 1.65rem;
+}
+
+body{
+    background-color: #5A1E76;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.msg-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:3rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.game{
+    padding: 15px;
+    height:70vh;
+    width:60vh;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 1.5vmin;
+    align-items: flex-end;
+    background-color: #2B0040;
+}
+.box{
+    background-color: #43115B;
+    height:25%;
+    width:30%;
+    border-radius:1rem;
+    border:none;
+    box-shadow: 1rem;
+    font-size: 4rem;
+}
+.bt{
+    height:60px;
+    width:250px;
+    padding:10px;
+    margin:15px;
+    border-radius:4rem;
+    background-color:#387E39;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border:none;
+}
+.msg-container{
+    height:100vmin;
+}
+#msg{
+    color:rgb(72,210,254);
+    font-size: 4.5rem;
+    font-weight:700;
+}
+.hide{
+    display: none;
+}
